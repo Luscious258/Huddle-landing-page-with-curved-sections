@@ -117,7 +117,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 150px;
     padding: 0 100px;
     height: 400px;
     background-color: hsl(207, 100%, 98%);
@@ -128,10 +128,6 @@ picture img{
     display: block;
 }
 
-.gt, .fc, .yu{
-    width: 500px;
-}
-
 .flow{
     display: flex;
     align-items: center;
@@ -139,10 +135,6 @@ picture img{
     gap: 100px;
     padding: 0 100px;
     margin: 100px 0;
-}
-
-h2{
-    margin-bottom: 20px;
 }
 
 .build-community{
@@ -262,6 +254,14 @@ svg:hover{
 
 .newstext{
     margin-top: 20px;
+}
+
+.flowing-convo {
+    padding-left: 20px;
+}
+
+.container > p {
+    padding-right: 100px;
 }
 
 @media  screen and (max-width: 991.98px) {
