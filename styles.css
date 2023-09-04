@@ -117,7 +117,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 80px;
     padding: 0 100px;
     height: 400px;
     background-color: hsl(207, 100%, 98%);
@@ -256,6 +256,14 @@ svg:hover{
     margin-top: 20px;
 }
 
+.gt{
+    display: inline-block;
+}
+
+.your-user > p{
+    padding-right: 60px;
+}
+
 @media  screen and (max-width: 991.98px) {
     .stats, .grow, .flow, .user{
         display: flex;
@@ -324,6 +332,12 @@ svg:hover{
 @media screen and (max-width:476px) {
     .huddle{
         width: 350px;
+    }
+}
+
+@media screen and (max-width:979px){
+    .grow{
+        height: 650px;
     }
 }
 
