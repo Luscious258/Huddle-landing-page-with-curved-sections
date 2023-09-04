@@ -9,21 +9,23 @@
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
 </head>
 <body>
 
   <div class="content">
     <header>
-      <img class="logo" src="./images/logo.svg" alt="huddle-logo">
+      <img class="logo w-40 md:w-56 lg:w-60" src="./images/logo.svg" alt="huddle-logo">
       <div class="try">Try it free</div>
     </header>
     
     <main>
       <div class="build">
-        <h1>Build The Community Your Fans Will Love</h1>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl">Build The Community Your Fans Will Love</h1>
     
-        <p class="huddle">Huddle re-imagines the way we build communities. You have a<br> voice, but so does 
-          your audience. Create connections with your<br> users as you engage in genuine discussion.</p>
+        <p class="huddle text-sm md:text-lg lg:text-xl">Huddle re-imagines the way we build communities. You have a<br> voice, but so does 
+          your audience. Create connections with your users as you engage in genuine discussion.</p>
       
         <div class="button">Get Started For Free</div>
         <img src="./images/screen-mockups.svg" alt="screen-mockups">
@@ -32,40 +34,45 @@
       <div class="stats">
         <div class="communities">
           <img class="stats-icon" src="./images/icon-communities.svg" alt="">
-          <p class="number">1.4k+</p>
+          <p class="number text-6xl md:text-7xl lg:text-8xl">1.4k+</p>
           <p class="category">Communities Formed</p>
         </div>
-        
-      
+          
         <div class="Messages">
           <img class="stats-icon" src="./images/icon-messages.svg" alt="">
-          <p class="number">2.7m+</p>
+          <p class="number text-6xl md:text-7xl lg:text-8xl">2.7m+</p>
           <p class="category">Messages Sent</p>
         </div>
       </div>
       
       <picture>
-        <img src="./images/bg-section-top-desktop-1.svg" alt="curvy top">
+        <img class="w-1000 md:w-320 lg:w-100" src="./images/bg-section-top-desktop-1.svg" alt="curvy top">
       </picture>
   
       <article class="grow">
         <div class="grow-together">
-          <h2>Grow Together</h2>
-          <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
-            Think of the insightful conversations you miss out on with a feedback form. </p>
+          <div class="container">
+            <h2>Grow Together</h2>
+            <p class="text-sm md:text-lg lg:text-xl">Generate meaningful discussions with your audience and build a strong, loyal community. 
+               Think of the insightful conversations you miss out on with a feedback form. </p>
+          </div>
+              
         </div>
-  
-        <img class="gt" src="./images/illustration-grow-together.svg" alt="illustration-grow-together">
+          
+        <div>
+          <img class="gt" src="./images/illustration-grow-together.svg" alt="illustration-grow-together">
+        </div>
+        
       </article> 
   
       <picture>
-        <img src="./images/bg-section-bottom-desktop-1.svg" alt="curvy bottom">
+        <img class="w-1000 md:w-320 lg:w-100" src="./images/bg-section-bottom-desktop-1.svg" alt="curvy bottom">
       </picture>
       
       <article class="flow">
         <div class="flowing-convo">
           <h2>Flowing Conversations</h2>
-          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+          <p class="text-sm md:text-lg lg:text-xl">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
             just-in-time loading for a more natural flow.</p>
         </div>
         
@@ -73,13 +80,13 @@
       </article>
       
       <picture>
-        <img src="./images/bg-section-top-desktop-2.svg" alt="curvy top">
+        <img class="w-1000 md:w-320 lg:w-100" src="./images/bg-section-top-desktop-2.svg" alt="curvy top">
       </picture>
   
       <article class="user">
         <div class="your-user">
           <h2>Your Users</h2>
-          <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+          <p class="text-sm md:text-lg lg:text-xl">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
             once signed in to your app, your users can start chatting immediately.</p>
         </div>
         
@@ -87,28 +94,27 @@
       </article>
   
       <picture>
-        <img src="./images/bg-section-bottom-desktop-2.svg" alt="curvy bottom">
+        <img class="w-1000 md:w-320 lg:w-100" src="./images/bg-section-bottom-desktop-2.svg" alt="curvy bottom">
       </picture>
       
       <div class="build-community">
-        <h2 class="community">Ready To Build Your Community?</h2>
+        <h2 class="community text-3xl md:text-4xl lg:text-5xl">Ready To Build Your Community?</h2>
         <div class="button">Get Started For Free</div>
       </div>
       
     </main>
-    
-   
+  
     <footer>
 
       <picture>
-        <img src="./images/bg-footer-top-desktop.svg" alt="curvy bottom">
+        <img class="w-1000 md:w-320 lg:w-100" src="./images/bg-footer-top-desktop.svg" alt="curvy bottom">
       </picture>
   
       <div class="footer">
         <div class="lorem">
           <div class="lorem-ipsum">
-            <a href="index.html"><img class="logo-2" src="./images/logo.svg" alt="huddle-logo"></a>
-            <p class="loremtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+            <a href="index.html"><img class="logo-2 " src="./images/logo.svg" alt="huddle-logo"></a>
+            <p class="loremtext text-base md:text-lg lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
               vestibulum a, ultrices quis sem.</p>
           </div>
           
@@ -134,13 +140,13 @@
         <div class="news-footer">
           <div class="newsletter">
             <h3>Newsletter</h3>
-            <p class="newstext">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+            <p class="newstext text-base md:text-lg lg:text-lg">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
             send you spam or pass on your email address</p>
           </div>
     
           <div class="subscribe">
-            <input id="email" type="email" name="email" aria-label="email">
-            <button type="button">Subcribe</button>
+            <input id="email" type="email" name="email" aria-label="email" autocomplete="off">
+            <button class="button-subscribe">Subscribe</button>
           </div>
         </div>
       </div>
@@ -155,5 +161,8 @@
 
     
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
