@@ -338,6 +338,32 @@ svg:hover{
     .huddle{
         width: 350px;
     }
+
+    .content {
+        width: 100%;
+    }
+
+    .subscribe {
+        width: 350px;
+    }
+
+    .newsletter > h3{
+        width: auto;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .newsletter {
+        width: 350px;
+    }
+
+    input#email {
+        width: 350px;
+    }
+
+    .news-footer, .lorem {
+        width: auto;
+    }
 }
 
 @media screen and (max-width:979px){
